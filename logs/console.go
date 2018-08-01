@@ -18,9 +18,17 @@ func NewConsole() Logger {
 }
 
 func (this *consoleWriter) Init(conf string) error {
-
+	return nil
 }
 
 func (this *consoleWriter) WriteMsg(when time.Time, msg string, level int) error {
+	return nil
+}
+
+func (this *consoleWriter) Destroy() {
+
+}
+
+func (this *consoleWriter) Flush() {
 
 }
