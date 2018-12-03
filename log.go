@@ -3,7 +3,7 @@ package wst
 import (
 	"strings"
 
-	"github.com/wst-libs/wst/logs"
+	"github.com/wsterr/wst/logs"
 )
 
 const (
